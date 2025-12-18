@@ -512,7 +512,7 @@ html, body{
 
 
 .gallery{
-    height: 100vh;
+    height: 1000px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -712,4 +712,81 @@ html, body{
 .b2:hover{
     background: #FFC20E;
     color: #F1F3F8;
+}
+
+.update{
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    height:300px;
+    width:100%;
+    background:url(./update1.jpg);
+    background-position:center ;
+    object-fit: cover;
+    gap: 40px;
+    /* filter: brightness(50%);
+    z-index: -100; */
+
+}
+
+.u1{
+    width: 40%;
+    height:100%;
+    color: white;
+    padding: 80px;
+    /* background: #000; */
+    margin:0 20px 0 100px;
+
+
+}
+.u1 h6{
+    font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color1);
+  margin-bottom: 20px;
+}
+.u1 h3{
+    font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+}
+.u1 p{
+    font-size: 18px;
+  line-height: 28px;
+  color:white;
+
+}
+.u2{
+    /* background: white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+}
+.u2 input{
+    height:50px;
+    width:400px;
+    padding: 10px;
+    
+}
+
+.u2 button{
+  padding: 16px 30px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-radius: 4px;
+  color: white;
+  background: #ff9900;
+  border: none;
+  transition: 0.3s ease-in;
+  border-radius:5px;
+
+}
+.s button:hover{
+    background: #FFC20E;
+    border-radius: 5px;
 }
